@@ -48,5 +48,9 @@ class Geometry {
 		System.out.println();
 		System.out.println();
 		
+		PointBuilder pointBuilder = new PointBuilder();
+		Point p5 = pointBuilder.buildRandom();
+		System.out.println(p5.getX());
+		System.out.println(p5.getY());
 	}
 }
