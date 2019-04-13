@@ -52,5 +52,16 @@ class Geometry {
 		Point p5 = pointBuilder.buildRandom();
 		System.out.println(p5.getX());
 		System.out.println(p5.getY());
+		
+		System.out.println();
+		System.out.println();
+		
+		LineSegmentBuilder lineSegmentBuilder = new LineSegmentBuilder();
+		LineSegment lineSegment = lineSegmentBuilder.buildRandom();
+		System.out.println(lineSegment.getA().getX());
+		System.out.println(lineSegment.getA().getY());
+		
+		System.out.println(lineSegment.getB().getX());
+		System.out.println(lineSegment.getB().getY());
 	}
 }

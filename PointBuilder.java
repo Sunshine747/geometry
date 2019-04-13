@@ -9,5 +9,4 @@ public class PointBuilder implements Builder {
 		
 		return point;
 	}
-	
 }

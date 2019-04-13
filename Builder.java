@@ -2,7 +2,7 @@ import static java.lang.Math.*;
 
 import java.util.Random;
 
-public interface Builder {
+public  Builder {
 	
 	double max = 10;
 	double min = -10;
