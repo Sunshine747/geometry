@@ -34,4 +34,9 @@ class LineSegment extends Figure {
 	public Point getB() {
 		return B;
 	}
+	
+	@Override
+	public String toString() {
+		return getName() + " " + A.toString() + ", " + B.toString();
+	}
 }

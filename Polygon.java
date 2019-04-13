@@ -11,4 +11,14 @@ class Polygon extends Figure {
 	public ArrayList<Point> getVertexes() {
 		return vertexes;
 	}
+	
+	@Override
+	public String toString() {
+		String s = getName();
+		for(Point point : getVertexes()) {
+			s = s + " " + point.toString() + ",";
+		}
+		
+		return s.substring(0, s.length() - 1);
+	}
 }

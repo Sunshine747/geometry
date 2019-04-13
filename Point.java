@@ -18,4 +18,9 @@ class Point extends Figure {
 	public double getY() {
 		return Y;
 	}
+	
+	@Override
+	public String toString() {
+		return getName() + "(" + getX() + ";" + getY() + ")";
+	}
 }

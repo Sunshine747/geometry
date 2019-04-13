@@ -52,16 +52,55 @@ class Geometry {
 		Point p5 = pointBuilder.buildRandom();
 		System.out.println(p5.getX());
 		System.out.println(p5.getY());
+		System.out.println(p5.getName());
+		System.out.println();
+		
+		Point p6 = pointBuilder.buildRandom("point name");
+		System.out.println(p6.getX());
+		System.out.println(p6.getY());
+		System.out.println(p6.getName());
+		System.out.println(p6.toString());
 		
 		System.out.println();
 		System.out.println();
 		
 		LineSegmentBuilder lineSegmentBuilder = new LineSegmentBuilder();
 		LineSegment lineSegment = lineSegmentBuilder.buildRandom();
+		System.out.println(lineSegment.getName());
+		System.out.println("Point A");
 		System.out.println(lineSegment.getA().getX());
 		System.out.println(lineSegment.getA().getY());
-		
+		System.out.println();
+		System.out.println("Point B");
 		System.out.println(lineSegment.getB().getX());
 		System.out.println(lineSegment.getB().getY());
+		System.out.println(lineSegment.toString());
+		
+		System.out.println();
+		System.out.println();
+		
+		LineSegment lineSegment2 = lineSegmentBuilder.buildRandom("line segment name");
+		System.out.println(lineSegment2.getName());
+		System.out.println("Point A");
+		System.out.println(lineSegment2.getA().getX());
+		System.out.println(lineSegment2.getA().getY());
+		System.out.println();
+		System.out.println("Point B");
+		System.out.println(lineSegment2.getB().getX());
+		System.out.println(lineSegment2.getB().getY());
+		
+		System.out.println();
+		System.out.println();
+		
+		TriangleBuilder triangleBuilder = new TriangleBuilder();
+		Triangle triangle = triangleBuilder.buildRandom();
+		System.out.println(triangle.toString());
+		
+		System.out.println();
+		System.out.println();
+		
+		RectangleBuilder rectangleBuilder = new RectangleBuilder();
+		Rectangle rectangle = rectangleBuilder.buildRandom();
+		System.out.println(rectangle.toString());
 	}
 }
