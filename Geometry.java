@@ -102,5 +102,19 @@ class Geometry {
 		RectangleBuilder rectangleBuilder = new RectangleBuilder();
 		Rectangle rectangle = rectangleBuilder.buildRandom();
 		System.out.println(rectangle.toString());
+		
+		System.out.println();
+		System.out.println();
+		
+		CircleBuilder circleBuilder = new CircleBuilder();
+		Circle circle = circleBuilder.buildRandom();
+		System.out.println(circle.toString());
+		
+		System.out.println();
+		System.out.println();
+		
+		EllipseBuilder ellipseBuilder = new EllipseBuilder();
+		Ellipse ellipse = ellipseBuilder.buildRandom();
+		System.out.println(ellipse.toString());
 	}
 }

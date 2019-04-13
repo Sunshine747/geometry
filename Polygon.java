@@ -21,4 +21,5 @@ class Polygon extends Figure {
 		
 		return s.substring(0, s.length() - 1);
 	}
+	
 }

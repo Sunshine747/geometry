@@ -22,4 +22,5 @@ public class PointBuilder extends Builder {
 		
 		return point;
 	}
+	
 }

@@ -23,4 +23,5 @@ class Point extends Figure {
 	public String toString() {
 		return getName() + "(" + getX() + ";" + getY() + ")";
 	}
+	
 }

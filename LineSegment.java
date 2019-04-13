@@ -15,8 +15,8 @@ class LineSegment extends Figure {
 		return returnPoint;
 	}
 	
-	public int length() {
-		return (int) sqrt(pow(A.getX() - B.getX(), 2) + pow(A.getY() - B.getY(), 2));
+	public double length() {
+		return (double) round((sqrt(pow(A.getX() - B.getX(), 2) + pow(A.getY() - B.getY(), 2))) * 100)/100;
 	}
 	
 	public void setA(Point A) {
@@ -39,4 +39,5 @@ class LineSegment extends Figure {
 	public String toString() {
 		return getName() + " " + A.toString() + ", " + B.toString();
 	}
+	
 }

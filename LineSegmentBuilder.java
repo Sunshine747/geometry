@@ -30,4 +30,5 @@ public class LineSegmentBuilder extends Builder {
 		
 		return lineSegment;
 	}
+	
 }
