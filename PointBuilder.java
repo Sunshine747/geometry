@@ -1,3 +1,7 @@
+package builders;
+
+import figures.*;
+
 @SuppressWarnings("unchecked")
 public class PointBuilder extends Builder {
 	

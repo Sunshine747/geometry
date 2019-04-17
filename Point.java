@@ -1,4 +1,6 @@
-class Point extends Figure {
+package figures;
+
+public class Point extends Figure {
 	
 	public double X;
 	public double Y;

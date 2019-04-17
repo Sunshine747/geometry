@@ -1,7 +1,10 @@
+package builders;
+
+import figures.*;
 import static java.lang.Math.*;
 
 @SuppressWarnings("unchecked")
-class EllipseBuilder extends Builder {
+public class EllipseBuilder extends Builder {
 	
 	double val1 = abs(randomValue());
 	double val2 = abs(randomValue());

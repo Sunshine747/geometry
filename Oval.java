@@ -1,8 +1,10 @@
-class Oval extends Figure {
+package figures;
+
+public class Oval extends Figure {
 	
-	Point center;
-	double majorAxis;
-	double minorAxis;
+	public Point center;
+	public double majorAxis;
+	public double minorAxis;
 	
 	public void setCenter(Point center) {
 		this.center = center;

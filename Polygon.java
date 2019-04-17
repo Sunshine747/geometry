@@ -1,6 +1,8 @@
+package figures;
+
 import java.util.*;
 
-class Polygon extends Figure {
+public class Polygon extends Figure {
 	
 	public ArrayList<Point> vertexes = new ArrayList<Point>();
 		

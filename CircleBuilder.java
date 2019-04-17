@@ -1,7 +1,10 @@
+package builders;
+
+import figures.*;
 import static java.lang.Math.*;
 
 @SuppressWarnings("unchecked")
-class CircleBuilder extends Builder {
+public class CircleBuilder extends Builder {
 	
 	@Override
 	public Circle buildRandom() {

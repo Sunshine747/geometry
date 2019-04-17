@@ -1,4 +1,6 @@
-class Figure {
+package figures;
+
+public class Figure {
 	
 	public String name;
 	
