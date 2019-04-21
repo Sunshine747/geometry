@@ -21,11 +21,7 @@ public class CircleBuilder extends Builder {
 	
 	@Override
 	public Circle buildRandom(String name) {
-		Circle circle = new Circle();
-		PointBuilder pointBuilder = new PointBuilder();
-		
-		circle.setCenter(pointBuilder.buildRandom());
-		circle.setMajorAxis(abs(randomValue()));
+		Circle circle = buildRandom();
 		circle.setName(name);
 		
 		return circle;

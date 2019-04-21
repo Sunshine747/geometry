@@ -27,17 +27,7 @@ public class RectangleBuilder extends Builder {
 	
 	@Override
 	public Rectangle buildRandom(String name) {
-		Rectangle rectangle = new Rectangle();
-		PointBuilder pointBuilder = new PointBuilder();
-		ArrayList<Point> vertexes = new ArrayList<Point>();
-		
-		vertexes.add(pointBuilder.buildRandom());
-		vertexes.add(pointBuilder.buildRandom());
-		vertexes.add(pointBuilder.buildRandom());
-		vertexes.add(pointBuilder.buildRandom());
-		
-		
-		rectangle.setVertexes(vertexes);
+		Rectangle rectangle = buildRandom();
 		rectangle.setName(name);
 		
 		return rectangle;

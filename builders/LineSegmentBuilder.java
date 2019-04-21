@@ -22,14 +22,7 @@ public class LineSegmentBuilder extends Builder {
 	
 	@Override
 	public LineSegment buildRandom(String name) {
-		LineSegment lineSegment = new LineSegment();
-		PointBuilder pointBuilder = new PointBuilder();
-		
-		Point A = pointBuilder.buildRandom();
-		Point B = pointBuilder.buildRandom();
-		
-		lineSegment.setA(A);
-		lineSegment.setB(B);
+		LineSegment lineSegment = buildRandom();
 		lineSegment.setName(name);
 		
 		return lineSegment;

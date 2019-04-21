@@ -1,4 +1,6 @@
 import figures.*;
+import builders.*;
+
 
 import java.util.*;
 
@@ -12,6 +14,6 @@ class Geometry {
 			System.out.println(f.toString());
 			System.out.println();
 		}
-		
+	
 	}
 }

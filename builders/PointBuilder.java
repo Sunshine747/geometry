@@ -18,10 +18,7 @@ public class PointBuilder extends Builder {
 	
 	@Override
 	public Point buildRandom(String name) {
-		Point point = new Point();
-		
-		point.setX(randomValue());
-		point.setY(randomValue());
+		Point point = buildRandom();
 		point.setName(name);
 		
 		return point;
