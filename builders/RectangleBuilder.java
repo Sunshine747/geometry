@@ -1,3 +1,7 @@
+package builders;
+
+import figures.*;
+
 import java.util.*;
 
 @SuppressWarnings("unchecked")

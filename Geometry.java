@@ -1,3 +1,5 @@
+import figures.*;
+
 import java.util.*;
 
 class Geometry {

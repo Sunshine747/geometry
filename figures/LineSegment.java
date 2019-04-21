@@ -1,7 +1,9 @@
+package figures;
+
 import java.util.*;
 import static java.lang.Math.*;
 
-class LineSegment extends Figure {
+public class LineSegment extends Figure {
 	
 	public Point A;
 	public Point B;

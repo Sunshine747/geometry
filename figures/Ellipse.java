@@ -1,4 +1,6 @@
-class Ellipse extends Oval {
+package figures;
+
+public class Ellipse extends Oval {
 	
 	@Override
 	public String toString() {
