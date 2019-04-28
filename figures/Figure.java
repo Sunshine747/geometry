@@ -9,11 +9,11 @@ public class Figure {
 	}
 	
 	public String getName() {
-		return name;
-	}
-	
-	public void showName() {
-		System.out.println(name);
+		if (name == null) {
+			return getClass().getSimpleName();
+		} else {
+			return name;
+		}
 	}
 	
 }
