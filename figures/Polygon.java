@@ -1,6 +1,7 @@
 package figures;
 
 import java.util.*;
+import java.util.stream.*;
 
 public class Polygon extends Figure {
 	
@@ -16,12 +17,11 @@ public class Polygon extends Figure {
 	
 	@Override
 	public String toString() {
-		String s = getName();
-		for(Point point : getVertexes()) {
-			s = s + " " + point.toString() + ",";
-		}
-		
-		return s.substring(0, s.length() - 1);
+		return getName() + " "
+				+ getVertexes()
+				.stream()
+				.map(Point::toString)
+				.collect(Collectors.joining(", "));
 	}
 	
 }

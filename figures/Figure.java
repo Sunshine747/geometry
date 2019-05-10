@@ -16,8 +16,4 @@ public class Figure {
 		}
 	}
 	
-	public void showName() {
-		System.out.println(name);
-	}
-	
 }
