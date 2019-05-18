@@ -15,13 +15,4 @@ public class PointBuilder extends Builder {
 		
 		return point;
 	}
-	
-	@Override
-	public Point buildRandom(String name) {
-		Point point = buildRandom();
-		point.setName(name);
-		
-		return point;
-	}
-	
 }

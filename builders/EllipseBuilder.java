@@ -29,13 +29,4 @@ public class EllipseBuilder extends Builder {
 		
 		return ellipse;
 	}
-	
-	@Override
-	public Ellipse buildRandom(String name) {
-		Ellipse ellipse = buildRandom();
-		ellipse.setName(name);
-		
-		return ellipse;
-	}
-	
 }

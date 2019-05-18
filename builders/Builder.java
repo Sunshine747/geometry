@@ -1,5 +1,7 @@
 package builders;
 
+import figures.*;
+
 import static java.lang.Math.*;
 
 import java.util.Random;
@@ -15,6 +17,12 @@ public abstract class Builder {
 	}
 	
 	abstract <T> T buildRandom();
-	abstract <T> T buildRandom(String name);
+	
+	public <T extends Figure> T buildRandom(String name) {		
+		T t;
+		t = buildRandom();
+		t.setName(name);
+		return t;
+	}
 	
 }

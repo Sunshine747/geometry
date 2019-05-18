@@ -18,13 +18,4 @@ public class CircleBuilder extends Builder {
 		
 		return circle;
 	}
-	
-	@Override
-	public Circle buildRandom(String name) {
-		Circle circle = buildRandom();
-		circle.setName(name);
-		
-		return circle;
-	}
-	
 }
