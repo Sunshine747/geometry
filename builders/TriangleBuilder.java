@@ -22,13 +22,4 @@ public class TriangleBuilder extends Builder {
 		
 		return triangle;
 	}
-	
-	@Override
-	public Triangle buildRandom(String name) {
-		Triangle triangle = buildRandom();
-		triangle.setName(name);
-		
-		return triangle;
-	}
-	
 }

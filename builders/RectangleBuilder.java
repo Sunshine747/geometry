@@ -24,13 +24,4 @@ public class RectangleBuilder extends Builder {
 		
 		return rectangle;
 	}
-	
-	@Override
-	public Rectangle buildRandom(String name) {
-		Rectangle rectangle = buildRandom();
-		rectangle.setName(name);
-		
-		return rectangle;
-	}
-	
 }

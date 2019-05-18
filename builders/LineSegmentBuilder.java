@@ -19,13 +19,4 @@ public class LineSegmentBuilder extends Builder {
 		
 		return lineSegment;
 	}
-	
-	@Override
-	public LineSegment buildRandom(String name) {
-		LineSegment lineSegment = buildRandom();
-		lineSegment.setName(name);
-		
-		return lineSegment;
-	}
-	
 }
