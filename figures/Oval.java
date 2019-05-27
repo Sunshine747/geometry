@@ -1,4 +1,6 @@
-class Oval extends Figure {
+package figures;
+
+public class Oval extends Figure {
 	
 	Point center;
 	double majorAxis;

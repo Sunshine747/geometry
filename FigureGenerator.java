@@ -1,7 +1,10 @@
+import figures.*;
+import builders.*;
+
 import java.util.*;
 import static java.lang.Math.*;
 
-class FigureGenerator {
+public class FigureGenerator {
 	
 	public ArrayList<Figure> generate(int count) {
 		

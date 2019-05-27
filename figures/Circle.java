@@ -1,4 +1,6 @@
-class Circle extends Oval {
+package figures;
+
+public class Circle extends Oval {
 	
 	@Override
 	public String toString() {
