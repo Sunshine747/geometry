@@ -1,2 +1,2 @@
 # geometry
-repository for learn java
+repository for learn java.
